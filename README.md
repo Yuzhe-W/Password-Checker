@@ -22,7 +22,7 @@ If the password contains 3 or more consecutive uppercase characters (i.e. BBB, X
 If the password contains 3 or more consecutive numbers (i.e. 55555, 1747, 123, 321) -3 points
 
 Example:
-# Here we use password "ThisBlowsMindsss189" as example: The password score will be calculated: +19 points(+1 point for each character in the string), +5 points(at least one number),  +5 points(at least one alpha character), -3 points(3 or more consecutive lowercase characters), -10 points (a repeated alphanumeric character), -3 points(3 or more consecutive numbers). Therefore, the final score for password is: 19+5+5-3-10-3=13, as shown below
+Here we use password "ThisBlowsMindsss189" as example: The password score will be calculated: +19 points(+1 point for each character in the string), +5 points(at least one number),  +5 points(at least one alpha character), -3 points(3 or more consecutive lowercase characters), -10 points (a repeated alphanumeric character), -3 points(3 or more consecutive numbers). Therefore, the final score for password is: 19+5+5-3-10-3=13, as shown below
 
 $> echo ThisBlowsMindsss189 > ~/cs252/lab2-src/testfile
 
