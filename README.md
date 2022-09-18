@@ -1,5 +1,6 @@
 # Password-Checker
 A Password checker shell-script that check the password strength
+
 Password has less than 6, or more than 32 characters  -Print "Error: Password length invalid."
 Password cannot have unrecoginzed character
 
